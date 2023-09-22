@@ -48,7 +48,7 @@ Book.read();
 // Створюємо об'єкт Novel, наслідуємо властивості і функції від об'єкта Book
 let Novel = Object.create(Book);
 // Додаємо властивість genre
-Object.defineProperty(Novel, "genre", { value: "genre" });
+Novel.genre = "Новела";
 console.log("Завдання: 2 ==============================");
 
 // Виводимо в консоль Об'єкт: Novel
